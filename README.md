@@ -80,6 +80,38 @@ flowchart TD
 
 ---
 
+## 📸 Visual Storefront Gallery & Core Pages
+
+The store includes four primary conversion templates built for Indian ethnic wear D2C commerce:
+
+### 1. Complete Home Page (`/`)
+*Full-width announcement ticker, editorial hero quote banner, value proposition badges, 4-column New Arrivals catalog, and split seasonal collection promotions.*
+
+![Complete Home Page](docs/images/homepage.png)
+
+---
+
+### 2. Collections Hub Directory (`/collections/`)
+*Visual directory matching [Evara.me/collections](https://evara.me/collections), rendering 15 signature kurti collections with cover photos, item counters, and instant navigation.*
+
+![Collections Directory](docs/images/collections.png)
+
+---
+
+### 3. Product Detail Page – PDP (`/product/nazia-square-neck-printed-cotton-kurti/`)
+*High-conversion product page featuring multi-angle gallery with thumbnail switcher, real-time discount calculations, size selector (XS-XL), pincode delivery estimator, interactive Size Guide modal, and volume discount offers.*
+
+![Product Detail Page](docs/images/pdp.png)
+
+---
+
+### 4. About Our Brand Storytelling (`/about-us/`)
+*Brand heritage narrative highlighting 100% pure long-staple cotton sourcing, fair-wage ethical craftsmanship, tailored corset-back innovations, and direct collection exploration.*
+
+![About Our Brand](docs/images/about.png)
+
+---
+
 ## 🏗️ Architectural & Evara.me Parity Highlights
 
 The boutique was constructed following modern Indian D2C e-commerce conversion patterns:
