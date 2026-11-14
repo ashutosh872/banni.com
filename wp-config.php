@@ -12,8 +12,15 @@ define( 'WP_DEBUG', false );
 define( 'WP_DEBUG_LOG', false );
 define( 'WP_DEBUG_DISPLAY', false );
 define( 'WP_MEMORY_LIMIT', '256M' );
-define( 'WP_SITEURL', 'http://localhost:8000' );
-define( 'WP_HOME', 'http://localhost:8000' );
+// Dynamic Home & Site URL for Localhost and Public Tunnels
+if ( isset( $_SERVER['HTTP_HOST'] ) ) {
+	$proto = ( isset( $_SERVER['HTTP_X_FORWARDED_PROTO'] ) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https' ) || ( isset( $_SERVER['HTTPS'] ) && $_SERVER['HTTPS'] === 'on' ) ? 'https' : 'http';
+	define( 'WP_SITEURL', $proto . '://' . $_SERVER['HTTP_HOST'] );
+	define( 'WP_HOME', $proto . '://' . $_SERVER['HTTP_HOST'] );
+} else {
+	define( 'WP_SITEURL', 'http://localhost:8000' );
+	define( 'WP_HOME', 'http://localhost:8000' );
+}
 
 // Authentication Unique Keys and Salts.
 define( 'AUTH_KEY',         'bZ0*2@m8s%Lq01^k#9xP$z1!90QW@ER#TY$UI%OP^1234' );
