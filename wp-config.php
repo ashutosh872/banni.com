@@ -12,9 +12,14 @@ define( 'WP_DEBUG', false );
 define( 'WP_DEBUG_LOG', false );
 define( 'WP_DEBUG_DISPLAY', false );
 define( 'WP_MEMORY_LIMIT', '256M' );
+// Support for HTTPS reverse proxies & Cloudflare Tunnels
+if ( isset( $_SERVER['HTTP_X_FORWARDED_PROTO'] ) && strpos( $_SERVER['HTTP_X_FORWARDED_PROTO'], 'https' ) !== false ) {
+	$_SERVER['HTTPS'] = 'on';
+}
+
 // Dynamic Home & Site URL for Localhost and Public Tunnels
 if ( isset( $_SERVER['HTTP_HOST'] ) ) {
-	$proto = ( isset( $_SERVER['HTTP_X_FORWARDED_PROTO'] ) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https' ) || ( isset( $_SERVER['HTTPS'] ) && $_SERVER['HTTPS'] === 'on' ) ? 'https' : 'http';
+	$proto = ( isset( $_SERVER['HTTPS'] ) && $_SERVER['HTTPS'] === 'on' ) ? 'https' : 'http';
 	define( 'WP_SITEURL', $proto . '://' . $_SERVER['HTTP_HOST'] );
 	define( 'WP_HOME', $proto . '://' . $_SERVER['HTTP_HOST'] );
 } else {
