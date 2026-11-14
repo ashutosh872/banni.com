@@ -12,6 +12,7 @@ define( 'WP_DEBUG', false );
 define( 'WP_DEBUG_LOG', false );
 define( 'WP_DEBUG_DISPLAY', false );
 define( 'WP_MEMORY_LIMIT', '256M' );
+define( 'DISABLE_WP_CRON', true );
 // Support for HTTPS reverse proxies & Cloudflare Tunnels
 if ( isset( $_SERVER['HTTP_X_FORWARDED_PROTO'] ) && strpos( $_SERVER['HTTP_X_FORWARDED_PROTO'], 'https' ) !== false ) {
 	$_SERVER['HTTPS'] = 'on';
