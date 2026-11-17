@@ -2,12 +2,30 @@
 
 > **A bespoke, high-converting D2C Indian ethnic wear e-commerce store engineered on WordPress & WooCommerce, featuring 100% architectural, visual, and behavioral parity with [Evara.me](https://evara.me/).**
 
+[![GitHub Pages Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-2ea44f?style=for-the-badge&logo=github)](https://ashutosh872.github.io/banni.com/)
 [![WordPress](https://img.shields.io/badge/WordPress-6.7.1-blue.svg)](https://wordpress.org/)
 [![WooCommerce](https://img.shields.io/badge/WooCommerce-9.4.0-purple.svg)](https://woocommerce.com/)
 [![Database](https://img.shields.io/badge/Database-SQLite_Portable-green.svg)](https://sqlite.org/)
 [![E2E Verification](https://img.shields.io/badge/E2E_Audit-100%25_Pass-brightgreen.svg)]()
 [![Admin](https://img.shields.io/badge/Admin_GUI-100%25_Zero_Code-orange.svg)]()
 [![Repository](https://img.shields.io/badge/GitHub-banni.com-black.svg)](https://github.com/ashutosh872/banni.com)
+
+---
+
+## 🌐 Live Online Demo Links (Permanent & Staging)
+
+### 🚀 1. Instant Online Client Demo (GitHub Pages – No Setup Required)
+> **Permanent Live Demo Link:** **[https://ashutosh872.github.io/banni.com/](https://ashutosh872.github.io/banni.com/)**
+
+| Demo Section | Direct Link | Description |
+| :--- | :--- | :--- |
+| **Storefront (Home)** | [https://ashutosh872.github.io/banni.com/](https://ashutosh872.github.io/banni.com/) | Complete editorial boutique homepage |
+| **All Kurtis Catalog** | [https://ashutosh872.github.io/banni.com/shop.html](https://ashutosh872.github.io/banni.com/shop.html) | Full responsive kurti catalog |
+| **Collections Hub** | [https://ashutosh872.github.io/banni.com/collections.html](https://ashutosh872.github.io/banni.com/collections.html) | 15 signature collection tiles |
+| **Product Detail (PDP)** | [https://ashutosh872.github.io/banni.com/product.html](https://ashutosh872.github.io/banni.com/product.html) | Interactive Nazia Kurti PDP with gallery & pincode |
+| **Our Story (About)** | [https://ashutosh872.github.io/banni.com/about-us.html](https://ashutosh872.github.io/banni.com/about-us.html) | Brand story & ethical cotton sourcing |
+| **Track Order** | [https://ashutosh872.github.io/banni.com/track-order.html](https://ashutosh872.github.io/banni.com/track-order.html) | Live simulated order status tracker |
+| **Interactive Dossier** | [https://ashutosh872.github.io/banni.com/dossier.html](https://ashutosh872.github.io/banni.com/dossier.html) | Comprehensive architecture & audit report |
 
 ---
 
