@@ -467,6 +467,43 @@
 
         initCategoryPills();
 
+        // 14. Evara.me-Style Widescreen Hero Slideshow Carousel
+        function initHeroCarousel() {
+            const slides = $('.evara-hero-slide');
+            const dots = $('.evara-dot');
+            if (!slides.length) return;
+
+            let currentSlide = 0;
+            let slideTimer;
+
+            function goToSlide(idx) {
+                currentSlide = (idx + slides.length) % slides.length;
+                slides.removeClass('is-active').eq(currentSlide).addClass('is-active');
+                dots.removeClass('active').eq(currentSlide).addClass('active');
+            }
+
+            function startTimer() {
+                if (slides.length > 1) {
+                    clearInterval(slideTimer);
+                    slideTimer = setInterval(function() {
+                        goToSlide(currentSlide + 1);
+                    }, 5000);
+                }
+            }
+
+            dots.on('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                const idx = parseInt($(this).data('slide'), 10);
+                goToSlide(idx);
+                startTimer();
+            });
+
+            startTimer();
+        }
+
+        initHeroCarousel();
+
     });
 
 })(jQuery);

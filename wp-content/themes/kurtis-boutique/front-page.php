@@ -6,12 +6,13 @@
 get_header();
 
 // Fetch Customizer Values
-$hero_tagline    = get_theme_mod( 'kurtis_hero_tagline', 'Saaj of Banni' );
-$hero_headline   = get_theme_mod( 'kurtis_hero_headline', "Here's a collection for the days you just want to feel soft." );
-$hero_subheadline= get_theme_mod( 'kurtis_hero_subheadline', 'Discover breathable, all-day comfortable pure cotton kurtis crafted for effortless elegance, college, office, and celebration.' );
-$hero_btn_text   = get_theme_mod( 'kurtis_hero_btn_text', 'Explore the Collection' );
-$hero_btn_link   = get_theme_mod( 'kurtis_hero_btn_link', '/shop/' );
-$hero_bg_image   = get_theme_mod( 'kurtis_hero_bg_image', 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1800&q=80' );
+$hero_tagline    = get_theme_mod( 'kurtis_hero_tagline', 'Festive Edit · 2026' );
+$hero_headline   = get_theme_mod( 'kurtis_hero_headline', "Pure Breathable Cotton Kurtis" );
+$hero_subheadline= get_theme_mod( 'kurtis_hero_subheadline', 'Handcrafted 100% long-staple cotton for all-day comfort and effortless luxury.' );
+$hero_btn_text   = get_theme_mod( 'kurtis_hero_btn_text', 'Explore All Kurtis' );
+$hero_btn_link   = get_theme_mod( 'kurtis_hero_btn_link', '/collections/all/' );
+$default_hero_img= get_template_directory_uri() . '/assets/images/hero-banner-evara.jpg';
+$hero_bg_image   = get_theme_mod( 'kurtis_hero_bg_image', $default_hero_img );
 
 $promo_1_title   = get_theme_mod( 'kurtis_promo_1_title', 'Corset Back Kurtis' );
 $promo_1_link    = get_theme_mod( 'kurtis_promo_1_link', '/product-category/corset-back/' );
@@ -27,21 +28,45 @@ $insta_url       = get_theme_mod( 'kurtis_insta_url', 'https://www.instagram.com
 
 <main id="primary" class="site-main">
 
-	<!-- 1. Editorial Hero Section -->
-	<section class="hero-banner">
-		<div class="hero-slider-wrap">
-			<div class="hero-slide">
-				<div class="hero-bg-layer" style="background-image: url('<?php echo esc_url( $hero_bg_image ); ?>');"></div>
-				<div class="hero-overlay"></div>
-				<div class="hero-content">
-					<span class="hero-editorial-pill"><?php echo esc_html( $hero_tagline ); ?></span>
-					<h1 class="hero-title"><?php echo esc_html( $hero_headline ); ?></h1>
-					<p class="hero-subtitle"><?php echo esc_html( $hero_subheadline ); ?></p>
-					<a href="<?php echo esc_url( home_url( $hero_btn_link ) ); ?>" class="hero-btn">
+	<!-- 1. Evara.me-Style Widescreen Editorial Hero Banner -->
+	<section class="evara-hero-banner">
+		<div class="evara-hero-carousel">
+			<!-- Slide 1: Main Festive Editorial -->
+			<a href="<?php echo esc_url( home_url( $hero_btn_link ) ); ?>" class="evara-hero-slide is-active" aria-label="<?php echo esc_attr( $hero_headline ); ?>">
+				<div class="evara-media-wrap">
+					<img src="<?php echo esc_url( $hero_bg_image ); ?>" alt="<?php echo esc_attr( $hero_headline ); ?>" class="evara-banner-img" fetchpriority="high">
+					<div class="evara-gradient-overlay"></div>
+				</div>
+				<div class="evara-caption-container">
+					<span class="evara-caption-tag"><?php echo esc_html( $hero_tagline ); ?></span>
+					<h1 class="evara-caption-title"><?php echo esc_html( $hero_headline ); ?></h1>
+					<span class="evara-caption-btn">
 						<span><?php echo esc_html( $hero_btn_text ); ?></span>
 						<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-					</a>
+					</span>
 				</div>
+			</a>
+
+			<!-- Slide 2: Corset & Co-ord Signature Edit -->
+			<a href="<?php echo esc_url( home_url( '/collections/all/' ) ); ?>" class="evara-hero-slide" aria-label="Artisanal Corset Backs & Co-ords">
+				<div class="evara-media-wrap">
+					<img src="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=2400&h=900&q=85" alt="Artisanal Corset Backs & Co-ords" class="evara-banner-img" loading="lazy">
+					<div class="evara-gradient-overlay"></div>
+				</div>
+				<div class="evara-caption-container">
+					<span class="evara-caption-tag">Artisanal Tailoring</span>
+					<h2 class="evara-caption-title">Corset Backs & Festive Co-Ords</h2>
+					<span class="evara-caption-btn">
+						<span>Shop Festive Edit</span>
+						<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+					</span>
+				</div>
+			</a>
+
+			<!-- Carousel Page Dots -->
+			<div class="evara-slider-dots">
+				<button type="button" class="evara-dot active" data-slide="0" aria-label="Go to slide 1"></button>
+				<button type="button" class="evara-dot" data-slide="1" aria-label="Go to slide 2"></button>
 			</div>
 		</div>
 	</section>

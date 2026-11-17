@@ -200,21 +200,45 @@ var woocommerce_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/
 
 <main id="primary" class="site-main">
 
-	<!-- 1. Editorial Hero Section -->
-	<section class="hero-banner">
-		<div class="hero-slider-wrap">
-			<div class="hero-slide">
-				<div class="hero-bg-layer" style="background-image: url('https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1800&q=80');"></div>
-				<div class="hero-overlay"></div>
-				<div class="hero-content">
-					<span class="hero-editorial-pill">Saaj of Banni</span>
-					<h1 class="hero-title">Here&#039;s a collection for the days you just want to feel soft.</h1>
-					<p class="hero-subtitle">Discover breathable, all-day comfortable pure cotton kurtis crafted for effortless elegance, college, office, and celebration.</p>
-					<a href="shop.html" class="hero-btn">
-						<span>Explore the Collection</span>
-						<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-					</a>
+	<!-- 1. Evara.me-Style Widescreen Editorial Hero Banner -->
+	<section class="evara-hero-banner">
+		<div class="evara-hero-carousel">
+			<!-- Slide 1: Main Festive Editorial -->
+			<a href="shop.html" class="evara-hero-slide is-active" aria-label="Pure Cotton Kurtis & Co-Ords">
+				<div class="evara-media-wrap">
+					<img src="assets/images/hero-banner-evara.jpg" alt="Pure Cotton Kurtis & Co-Ords" class="evara-banner-img" fetchpriority="high">
+					<div class="evara-gradient-overlay"></div>
 				</div>
+				<div class="evara-caption-container">
+					<span class="evara-caption-tag">Festive Edit · 2026</span>
+					<h1 class="evara-caption-title">Pure Cotton Kurtis & Co-Ords</h1>
+					<span class="evara-caption-btn">
+						<span>Explore Collection</span>
+						<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+					</span>
+				</div>
+			</a>
+
+			<!-- Slide 2: Corset & Co-ord Signature Edit -->
+			<a href="shop.html" class="evara-hero-slide" aria-label="Artisanal Corset Backs & Co-ords">
+				<div class="evara-media-wrap">
+					<img src="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=2400&h=900&q=85" alt="Artisanal Corset Backs & Co-ords" class="evara-banner-img" loading="lazy">
+					<div class="evara-gradient-overlay"></div>
+				</div>
+				<div class="evara-caption-container">
+					<span class="evara-caption-tag">Artisanal Tailoring</span>
+					<h2 class="evara-caption-title">Corset Backs & Festive Co-Ords</h2>
+					<span class="evara-caption-btn">
+						<span>Shop Festive Edit</span>
+						<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+					</span>
+				</div>
+			</a>
+
+			<!-- Carousel Page Dots -->
+			<div class="evara-slider-dots">
+				<button type="button" class="evara-dot active" data-slide="0" aria-label="Go to slide 1"></button>
+				<button type="button" class="evara-dot" data-slide="1" aria-label="Go to slide 2"></button>
 			</div>
 		</div>
 	</section>
