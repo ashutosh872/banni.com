@@ -12,20 +12,33 @@
 
 ---
 
-## 🌐 Live Online Demo Links (Permanent & Staging)
+## 🌐 Live Online Demo Links (Permanent & Dynamic Staging)
 
-### 🚀 1. Instant Online Client Demo (GitHub Pages – No Setup Required)
-> **Permanent Live Demo Link:** **[https://ashutosh872.github.io/banni.com/](https://ashutosh872.github.io/banni.com/)**
+### 🚀 1. Permanent Online Client Showcase (GitHub Pages – Zero Setup)
+> **Direct Public Showcase:** **[https://ashutosh872.github.io/banni.com/](https://ashutosh872.github.io/banni.com/)**
 
-| Demo Section | Direct Link | Description |
+| Interface / Page | Live Demo Link | Description |
 | :--- | :--- | :--- |
-| **Storefront (Home)** | [https://ashutosh872.github.io/banni.com/](https://ashutosh872.github.io/banni.com/) | Complete editorial boutique homepage |
-| **All Kurtis Catalog** | [https://ashutosh872.github.io/banni.com/shop.html](https://ashutosh872.github.io/banni.com/shop.html) | Full responsive kurti catalog |
-| **Collections Hub** | [https://ashutosh872.github.io/banni.com/collections.html](https://ashutosh872.github.io/banni.com/collections.html) | 15 signature collection tiles |
-| **Product Detail (PDP)** | [https://ashutosh872.github.io/banni.com/product.html](https://ashutosh872.github.io/banni.com/product.html) | Interactive Nazia Kurti PDP with gallery & pincode |
-| **Our Story (About)** | [https://ashutosh872.github.io/banni.com/about-us.html](https://ashutosh872.github.io/banni.com/about-us.html) | Brand story & ethical cotton sourcing |
-| **Track Order** | [https://ashutosh872.github.io/banni.com/track-order.html](https://ashutosh872.github.io/banni.com/track-order.html) | Live simulated order status tracker |
-| **Interactive Dossier** | [https://ashutosh872.github.io/banni.com/dossier.html](https://ashutosh872.github.io/banni.com/dossier.html) | Comprehensive architecture & audit report |
+| **Storefront (Home)** | [https://ashutosh872.github.io/banni.com/](https://ashutosh872.github.io/banni.com/) | Complete editorial boutique homepage, hero quote slider & trending kurti grid |
+| **All Kurtis Catalog** | [https://ashutosh872.github.io/banni.com/shop.html](https://ashutosh872.github.io/banni.com/shop.html) | Responsive kurti catalog with real-time discount badges |
+| **Collections Hub** | [https://ashutosh872.github.io/banni.com/collections.html](https://ashutosh872.github.io/banni.com/collections.html) | 15 signature collection tiles with direct CTAs *(Ref: Evara.me)* |
+| **Product Detail (PDP)** | [https://ashutosh872.github.io/banni.com/product.html](https://ashutosh872.github.io/banni.com/product.html) | Interactive Nazia Kurti PDP with gallery thumbnails, size chart & pincode estimator |
+| **Our Story (About Us)** | [https://ashutosh872.github.io/banni.com/about-us.html](https://ashutosh872.github.io/banni.com/about-us.html) | Brand heritage narrative & long-staple cotton sourcing |
+| **Track Order** | [https://ashutosh872.github.io/banni.com/track-order.html](https://ashutosh872.github.io/banni.com/track-order.html) | Live interactive simulated order tracking form |
+| **Interactive Dossier** | [https://ashutosh872.github.io/banni.com/dossier.html](https://ashutosh872.github.io/banni.com/dossier.html) | Master architecture dossier, schemas & E2E verification matrices |
+| **Printable PDF Dossier**| [https://ashutosh872.github.io/banni.com/saaj_of_banni_master_dossier.pdf](https://ashutosh872.github.io/banni.com/saaj_of_banni_master_dossier.pdf) | Downloadable 2.5 MB high-resolution PDF |
+
+---
+
+### ⚡ 2. Live Full-Stack Dynamic Server (WordPress + WooCommerce Backend)
+> **Active Online HTTPS Tunnel:** **[https://opposite-easier-parental-practical.trycloudflare.com/](https://opposite-easier-parental-practical.trycloudflare.com/)**
+
+| Interface | Dynamic URL | Credentials |
+| :--- | :--- | :--- |
+| **Storefront (Home)** | [https://opposite-easier-parental-practical.trycloudflare.com/](https://opposite-easier-parental-practical.trycloudflare.com/) | Publicly visible |
+| **Shop Catalog** | [https://opposite-easier-parental-practical.trycloudflare.com/collections/all/](https://opposite-easier-parental-practical.trycloudflare.com/collections/all/) | Publicly visible |
+| **Collections Directory** | [https://opposite-easier-parental-practical.trycloudflare.com/collections/](https://opposite-easier-parental-practical.trycloudflare.com/collections/) | Publicly visible |
+| **Admin Dashboard (GUI)** | [https://opposite-easier-parental-practical.trycloudflare.com/wp-admin/](https://opposite-easier-parental-practical.trycloudflare.com/wp-admin/) | **User:** `admin`<br>**Password:** `password123` |
 
 ---
 
