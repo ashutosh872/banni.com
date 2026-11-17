@@ -30,7 +30,9 @@ $insta_url       = get_theme_mod( 'kurtis_insta_url', 'https://www.instagram.com
 	<!-- 1. Editorial Hero Section -->
 	<section class="hero-banner">
 		<div class="hero-slider-wrap">
-			<div class="hero-slide" style="background-image: url('<?php echo esc_url( $hero_bg_image ); ?>');">
+			<div class="hero-slide">
+				<div class="hero-bg-layer" style="background-image: url('<?php echo esc_url( $hero_bg_image ); ?>');"></div>
+				<div class="hero-overlay"></div>
 				<div class="hero-content">
 					<span class="hero-editorial-pill"><?php echo esc_html( $hero_tagline ); ?></span>
 					<h1 class="hero-title"><?php echo esc_html( $hero_headline ); ?></h1>
