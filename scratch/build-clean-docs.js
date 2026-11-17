@@ -65,31 +65,7 @@ console.log('✓ Copied main.js');
 // Create .nojekyll
 fs.writeFileSync(path.join(DOCS_DIR, '.nojekyll'), '', 'utf8');
 
-const demoBannerHtml = `
-<!-- Demo Top Navigation Banner -->
-<div id="demoGlobalBar" style="background: linear-gradient(90deg, #181818, #282828); color: #fff; padding: 10px 20px; font-size: 13px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid #E5520A; z-index: 999999; position: sticky; top: 0; box-shadow: 0 2px 10px rgba(0,0,0,0.3);">
-  <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
-    <span style="background: #E5520A; color: #fff; font-weight: 700; padding: 3px 10px; border-radius: 4px; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px;">Live Demo</span>
-    <span style="font-weight: 700; font-size: 14px; letter-spacing: 0.5px;">Saaj of Banni</span>
-    <span style="color: #666;">|</span>
-    <nav style="display: inline-flex; gap: 16px; align-items: center; font-weight: 500;">
-      <a href="index.html" style="color: #fff; text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='#E5520A'" onmouseout="this.style.color='#fff'">🏠 Home</a>
-      <a href="shop.html" style="color: #fff; text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='#E5520A'" onmouseout="this.style.color='#fff'">🛍️ All Kurtis</a>
-      <a href="collections.html" style="color: #fff; text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='#E5520A'" onmouseout="this.style.color='#fff'">📂 Collections Hub</a>
-      <a href="product.html" style="color: #fff; text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='#E5520A'" onmouseout="this.style.color='#fff'">👗 Product View (PDP)</a>
-      <a href="about-us.html" style="color: #fff; text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='#E5520A'" onmouseout="this.style.color='#fff'">📖 Our Story</a>
-      <a href="track-order.html" style="color: #fff; text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='#E5520A'" onmouseout="this.style.color='#fff'">📦 Track Order</a>
-    </nav>
-  </div>
-  <div style="display: flex; align-items: center; gap: 12px;">
-    <a href="dossier.html" target="_blank" style="background: #333; color: #fff; text-decoration: none; padding: 5px 12px; border-radius: 4px; border: 1px solid #555; font-size: 12px; font-weight: 500; transition: all 0.2s;" onmouseover="this.style.borderColor='#E5520A'" onmouseout="this.style.borderColor='#555'">📄 Architecture Dossier</a>
-    <a href="https://github.com/ashutosh872/banni.com" target="_blank" style="background: #E5520A; color: #fff; text-decoration: none; padding: 5px 12px; border-radius: 4px; font-size: 12px; font-weight: 600; display: inline-flex; align-items: center; gap: 6px;">
-      <svg height="14" width="14" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
-      GitHub Repo
-    </a>
-  </div>
-</div>
-`;
+const demoBannerHtml = '';
 
 const demoInteractiveJs = `
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
